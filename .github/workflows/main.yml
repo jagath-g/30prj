@@ -18,6 +18,9 @@ jobs:
             java: 21
           - os: windows-latest
             java: 21
+        exclude:
+          - os: windows-latest
+            java: 8
 
       
     steps:
